@@ -1,0 +1,202 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-sep-2017, 13:00:29
+    Author     : Alumno
+*/
+
+html{
+    font-family: Arial;
+}
+
+p{
+    margin: 0px;
+}
+
+.panel__contenedor{    
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.panel__cabecera{
+    padding: 15px;
+    border-radius: 5px 5px 0px 0px;
+    border: solid 1px;
+    border-bottom: 0px;
+}
+
+.panel__cuerpo{
+    margin: 0px;
+    border: solid 1px;
+    padding: 15px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+/*PELIGRO*/
+.panel__cabecera--peligro {
+    background-color: #F2DEDE;
+    color: #C45851;
+    border-color: #ECD0D4;
+}
+
+.panel__cuerpo--peligro {
+    background-color: white;
+    color: black;
+    border-color: #ECD0D4;
+}
+
+/*PRIMARIO*/
+.panel__cabecera--primary {
+    background-color: #337AB7;
+    color: white;
+    border-color: #337AB7;
+}
+
+.panel__cuerpo--primary {
+    background-color: white;
+    color: black;
+    border-color: #337AB7;
+}
+
+/*ACEPTAR*/
+.panel__cabecera--aceptar {
+    background-color: #DFF0D8;
+    color: #56815D;
+    border-color: #E3F0D8;
+}
+
+.panel__cuerpo--aceptar {
+    background-color: white;
+    color: black;
+    border-color: #E3F0D8;
+}
+
+/*INFORMACION*/
+.panel__cabecera--info {
+    background-color: #D9EDF7;
+    color: #5C81A0;
+    border-color:#D5F1F6;
+}
+
+.panel__cuerpo--info {
+    background-color: white;
+    color: black;
+    border-color: #D5F1F6;
+}
+
+/*ALERTA*/
+.panel__cabecera--alerta {
+    background-color: #FCF8E3;
+    color: #BC844A;
+    border-color: #FAEDD0;
+}
+
+.panel__cuerpo--alerta {
+    background-color: white;
+    color: black;
+    border-color: #FAEDD0;
+}
+
+/* PANEL UNICO */
+.panel__unico{
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+li{    
+    display: inline;
+}
+a{
+    text-decoration: none;
+    margin: 0px;
+}
+
+.boton{
+    color:white;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.button--primary{
+    background-color: #337AB7;
+}
+.button--aceptar{
+    background-color: #5CB85C;
+}
+.button--alerta{
+    background-color: #D9534F;
+}
+.button--info{
+    background-color: #5BC0DE;
+}
+.button--peligro{
+    background-color: #F0AD4E;
+}
+
+.p{
+    margin-bottom: 30px;
+}
+
+.button--tamano{    
+    color:white;    
+    border: solid 1px;
+    border-radius: 5px;  margin-bottom: 30px;     
+}
+
+.button--large{
+    background-color: #337AB7;
+    padding: 15px;
+    font-size: 18px;
+    margin-bottom: 5px; 
+}
+.button--default{
+    background-color: #337AB7;
+    padding: 11px;
+    font-size: 14px;
+}
+.button--small{
+    background-color: #337AB7;
+    padding: 10px;
+    font-size: 12px;
+}
+.button--extraSmall{
+    background-color: #337AB7;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.menu{
+    display: inline;
+    border: solid 1px;
+    padding: 7px;
+    border-color: #D3D3D3;
+}
+.menu--archivo{
+    border-radius: 5px 0px 0px 5px;
+}
+.menu--editar{
+    border-left: 0px;
+    border-right: 0px;
+}
+.menu--ver{
+    border-right: 0px;
+}
+.menu--ayuda{
+     border-radius: 0px 5px 5px 0px;
+}
+.menu:hover{
+    background-color: #E6E6E6;
+    cursor: pointer;
+    border-color: #BFBFBF;
+}
+
